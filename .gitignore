@@ -1,1 +1,103 @@
--e "target/\n.idea/\n*.iml\n.classpath\n.settings/\n.DS_Store" 
+# --- Java ---
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# --- Maven ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# --- IDE ---
+.idea/
+*.ipr
+*.iws
+*.iml
+.classpath
+.project
+.settings/
+bin/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# --- System ---
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.tmp
+*.cache
+*.diff
+*.patch
+*.orig
+
+# --- Test Output ---
+test-output/
+*.eml
+*.log
+*.trs
+*.html
+*.json
+*.csv
+*.jfr
+*.hprof
+
+# --- Build Tools ---
+.gradle/
+build/
+out/
+dist/
+
+# --- Environment Files ---
+*.env
+*.properties
+config.local.*
+credentials.*
+secrets.*
+
+# --- Dependency Management ---
+dependency-reduced-pom.xml
+buildNumber.properties
+.m2/
+
+# --- Logs ---
+logs/
+*.log
+*.logs
+
+# --- Screenshots/Videos ---
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mov
+
+# --- IDE Specific ---
+### VS Code ###
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+### Eclipse ###
+.metadata/
+.loadpath
+.recommenders/
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
