@@ -51,11 +51,6 @@
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.32</version>
         </dependency>
-        <dependency>
-        	<groupId>eigen</groupId>
-        	<artifactId>selenium-testng-project</artifactId>
-        	<version>0.0.1-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
     <build>
