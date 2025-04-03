@@ -46,27 +46,28 @@ A robust test automation framework using Selenium WebDriver, TestNG, and Maven w
 
 ## Project Structure 
 
-Experion_selenium_Poject/ 
-├── src/ 
-│ ├── main/ 
-│ │ ├── java/ 
-│ │ │ └── com/ 
-│ │ │ ├── com.experion.pages/ # Page classes 
-│ │ │ ├── com.experion.utils/ # Utility classes 
-│ │ │ ├── com.experion.managers/ # Driver/Report managers 
-│ │ │ └── com.experion.config/ # Configuration classes 
-│ │ └── resources/ # Property files, test data 
-│ │     └── config.properties # Configuration file 
-│ └── test/ 
-│ ├── java/
-│ │     └── com.experion.testData  # Test Data
-│ │     └── com.experion.tests # Test classes
-│ └── resources/ 
-│       └── testng.xml # TestNG XMLs 
-├── test-output/ # Reports and screenshots 
-├── pom.xml # Maven configuration 
-└── README.md # This file
-
+<pre>
+Experion_selenium_Project/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       ├── com.experion.pages/        # Page classes
+│   │   │       ├── com.experion.utils/        # Utility classes
+│   │   │       ├── com.experion.managers/     # Driver/Report managers
+│   │   │       └── com.experion.config/       # Configuration classes
+│   │   └── resources/                         # Property files, test data
+│   │       └── config.properties              # Configuration file
+│   └── test/
+│       ├── java/
+│       │   ├── com.experion.testData          # Test Data
+│       │   └── com.experion.tests             # Test classes
+│       └── resources/
+│           └── testng.xml                     # TestNG XMLs
+├── test-output/                               # Reports and screenshots
+├── pom.xml                                    # Maven configuration
+└── README.md                                  # Project documentation
+</pre>                                # Project documentation
 
 ## 📊 Reports 
 
